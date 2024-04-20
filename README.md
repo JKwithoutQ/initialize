@@ -1,0 +1,2 @@
+# initialize
+initialization for ubuntu
