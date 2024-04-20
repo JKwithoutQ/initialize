@@ -1,21 +1,17 @@
 #!/bin/bash
 
-
-# wget
+# install
 apt -y autoremove
-# apt install wget
+apt install wget curl -y
 
 # git
-# apt install git
-# git config --global user.email "songguo696969@gmail.com"
-# git config --global user.name "JKwithoutQ"
+apt install git -y
+git config --global user.email "songguo696969@gmail.com"
+git config --global user.name "JKwithoutQ"
 
+sh ./vim/vim.sh
+sh ./chrome/chrome.sh
 
-
-# install chrome
-# wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-# dpkg -i google-chrome-stable_current_amd64.deb
-# apt install chromium-browser
 
 
 # install sougou
@@ -26,7 +22,4 @@ apt -y autoremove
 # wget "http://pinyin.sogou.com/linux/download.php?f=linux&bit=64" -O "sougou_64.deb" 
 # dpkg -i sougou_64.deb
 
-# install vim
-apt install vim -y
-cp vimrc ~/.vimrc
-chmod 664 ~/.vimrc
+

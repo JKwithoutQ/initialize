@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# install
-apt install wget
-apt install git
-apt install curl
-apt install vim
-
 if ! which git > /dev/null 2>&1; then
     echo -e "\ngit is not found.\nexit with code 1.\n"
     exit 1
